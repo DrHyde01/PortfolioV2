@@ -10,9 +10,9 @@ export default function Home() {
       </div>
       <div className="relative mx-auto h-screen w-full max-w-7xl flex items-center justify-center px-6 md:px-8 lg:px-12">
         <Hero
-          surtitle="developpé par:"
+          surtitle="developpé par"
           title="Stefan Heyd"
-          subtitle="Le site se fait une beauté mais je reste disponible pour vos mettre en avant vos projets React, Wordpress, ou autres 🌈"
+          subtitle="Le site se fait une beauté mais je reste disponible pour mettre en avant vos projets React, Wordpress, et autres 🌈"
           ctaMailto={{
             text: 'Me contacter',
             url: 'contact@stefanheyd.com',
