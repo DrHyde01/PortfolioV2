@@ -1,6 +1,6 @@
-import Hero from '../components/hero';
+import Hero from '@/components/hero';
 
-export default function Home() {
+export default function About() {
   return (
     <main>
       <div className="fixed left-0 top-0 -z-10 h-full w-full">
@@ -9,19 +9,7 @@ export default function Home() {
         </div>
       </div>
       <div className="relative mx-auto h-screen w-full max-w-7xl flex items-center justify-center px-6 md:px-8 lg:px-12">
-        <Hero
-          surtitle="developpé par"
-          title="Stefan H"
-          subtitle="Site ou application web ? Transformons ensemble vos idées en solutions modernes, accessibles, et inclusives"
-          ctaMailto={{
-            text: 'Me contacter',
-            url: 'contact@stefanheyd.com',
-          }}
-          ctaResume={{
-            text: 'Télécharger mon CV',
-            url: '/assets/CvHeydStephane.pdf',
-          }}
-        />
+        <Hero title="A propos" />
       </div>
     </main>
   );
